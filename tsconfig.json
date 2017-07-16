@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "jsx": "preserve",
+    "strict": true,
+    "outDir": "lib/fa/",
+    "declaration": true
+  }
+}

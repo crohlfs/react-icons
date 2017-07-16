@@ -1,0 +1,21 @@
+{
+  "name": "@crohlfs/react-icons",
+  "version": "0.0.1",
+  "scripts": {
+    "export-fa": "node ./exporters/font-awesome.js"
+  },
+  "files": ["lib"],
+  "dependencies": {
+    "react-icon-base": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^15.0.38",
+    "@types/react-icon-base": "^2.0.3",
+    "cheerio": "^1.0.0-rc.2",
+    "font-blast": "^0.6.1",
+    "js-yaml": "^3.9.0",
+    "prettier": "^1.5.3",
+    "superagent": "^3.5.2",
+    "tmp": "^0.0.31"
+  }
+}
