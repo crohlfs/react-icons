@@ -44,14 +44,12 @@ urlLoader(
             'import * as React from "react";' +
             'import * as Icon from "react-icon-base";' +
             "\r\n\r\n" +
-            "const SvgIcon = (props: Icon.IconBaseProps) =>" +
-            `<Icon viewBox="${viewBox}" {...props}>` +
+            "export default function(props: Icon.IconBaseProps) {" +
+            `return <Icon viewBox="${viewBox}" {...props}>` +
             "<g>" +
             svg.html() +
             "</g>" +
-            "</Icon>" +
-            "\r\n\r\n" +
-            "export default SvgIcon;";
+            "</Icon>};";
 
           fs.writeFileSync(
             `src/fa/${icon.id}.tsx`,
